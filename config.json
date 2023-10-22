@@ -1,0 +1,16 @@
+{
+  "mode": "direct_upload",
+  "sourcePath": "D:\\Users\\Desktop\\12321321\\新建文件夹",
+  "outputPath": "D:\\Users\\Desktop\\12321321",
+  "alist": "http://127.0.0.1:5244",
+  "token": "alist-114514",
+  "fileExtensions":  [".7z", ".zip"],
+  "localUploadDirectory": "本地/1",
+  "customOutputFileName": "备份{year}-{month}-{day}-{hour}-{minute}-{second}.zip",
+  "useCustomFileName": false,
+  "filename":"中文y12.zip",
+  "useLatestFile": true,
+  "customCompressionCommand": "powershell Compress-Archive -Path '{sourcePath}' -DestinationPath '{outputPath}/{customOutputFileName}'",
+  "deleteOutputFile": false,
+  "deleteSourcePath": false
+}
